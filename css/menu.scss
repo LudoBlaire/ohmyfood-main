@@ -64,29 +64,18 @@ $tertiary: rgb(153, 226, 208);
     color: transparent;
     transition: 300ms all;
     position: absolute;
-    top: 35px;
+    top: 112px;
     right: 40px;
     cursor: pointer;
 
     @include devices(desktop) {
-        -webkit-text-stroke-width: 0px;
-        width: 100%;
-        font-size: 34px;
-        text-align: right;
-        top: -47px;
-        left: -235px;
-        color: white;
-        text-shadow: 0px 0 30px rgba(0, 0, 0, 1);
-        padding: 101px 0px 0px 0px
+        top : 59px;
+        right: 240px
     }
 
     &:hover {
         background-position: 50% 100%;
         -webkit-text-stroke-color: #F4F4F4;
-        @include devices(desktop){
-        color: transparent;
-        text-shadow: 0 0 0 transparent;
-    }
     }
 }
 
@@ -144,6 +133,8 @@ main {
         gap: 15px;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 1600px;
+        margin: -40px 0 0 0;
+        padding: 80px 15px;
     }
 
     &__banner {
@@ -207,7 +198,7 @@ main {
         width: fit-content;
         display: block;
         overflow: hidden;
-        margin: 0 12px 0 0;
+        margin: 22px 12px 0 0;
     }
 
     &__h5 {

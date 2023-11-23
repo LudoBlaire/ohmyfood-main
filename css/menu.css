@@ -38,32 +38,19 @@ a:active {
   color: transparent;
   transition: 300ms all;
   position: absolute;
-  top: 35px;
+  top: 112px;
   right: 40px;
   cursor: pointer;
 }
 @media only screen and (min-width: 992px) {
   .fa-heart {
-    -webkit-text-stroke-width: 0px;
-    width: 100%;
-    font-size: 34px;
-    text-align: right;
-    top: -47px;
-    left: -235px;
-    color: white;
-    text-shadow: 0px 0 30px rgb(0, 0, 0);
-    padding: 101px 0px 0px 0px;
+    top: 59px;
+    right: 240px;
   }
 }
 .fa-heart:hover {
   background-position: 50% 100%;
   -webkit-text-stroke-color: #F4F4F4;
-}
-@media only screen and (min-width: 992px) {
-  .fa-heart:hover {
-    color: transparent;
-    text-shadow: 0 0 0 transparent;
-  }
 }
 
 .fa-circle-check {
@@ -115,6 +102,8 @@ main {
     gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1600px;
+    margin: -40px 0 0 0;
+    padding: 80px 15px;
   }
 }
 .menu__banner {
@@ -176,7 +165,7 @@ main {
   width: fit-content;
   display: block;
   overflow: hidden;
-  margin: 0 12px 0 0;
+  margin: 22px 12px 0 0;
 }
 .menu__h5 {
   font-size: 15px;
